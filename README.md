@@ -33,16 +33,15 @@ Add a function, `fullName`, to the Customer class. This should return first and
 
 Add a function to save reservations. Like the customers save function
 
-
-### **Part Five: Add Search Functionality**
+## **Part Five: Add Search Functionality**
 
 Add a way to search for a customer by name, rather than having to find them in a list. Add a quick search form to the bootstrap navigation bar to search for a customer by name.
 
-### **Part Six: Best Customers**
+## **Part Six: Best Customers**
 
 Add a new route that finds our top 10 customers ordered by most reservations.
 
-### **Part Seven: Practice using Setters & Getters**
+## **Part Seven: Practice using Setters & Getters**
 
 Use getters and setters in this codebase. Here are some examples of ways you could use them:
 
@@ -52,7 +51,7 @@ Use getters and setters in this codebase. Here are some examples of ways you cou
 - Use the getter/setter pattern with ***startAt*** on a reservation, so that you must set the start date to a value that is a ***Date*** object.
 - Use the getter/setter pattern with ***customerId*** on a reservation, such that once a reservation is assigned a ***customerId***, that key can never be assigned to a new value (attempts should throw an error).
 
-### **Extras**
+## **Extras**
 - Add a feature to edit existing reservations. Make sure to keep SQL out of the routes themselves.
 - On the customer listing page, show the most recent reservation for each. Make sure when you do this that you continue to list all customers, even those without any reservations!
 - Add a new field for middle name, which can be optional, but should appear in the full name displays
